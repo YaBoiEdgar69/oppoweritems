@@ -1,0 +1,13 @@
+main: me.yaboiedgar.oppoweritems.Main
+name: OPPowerItems
+version: 1.0
+author: YaBoiEdgar
+description: Adds a few custom OP Power Items that let you manipulate entities.
+api-version: '1.20'
+
+commands:
+  oppoweritem:
+    description: "Main command for the OPPowerItems plugin. Use \"/oppoweritem help\" for further info."
+    aliases: [oppoweritems, opi, poweritem]
+    permission: oppoweritems.oppoweritem
+    permission-message: §cYou do not have permission to use this command.
